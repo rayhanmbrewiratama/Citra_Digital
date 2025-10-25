@@ -29,12 +29,12 @@ Kode utama dibuat dalam _script_ Python ini untuk menjalankan langkah-langkah de
     - Membuat citra sintetis untuk mensimulasikan **pencahayaan yang tidak seragam** (gradien horizontal).
     - Menyisipkan **objek uji** (kotak abu-abu) di tengah citra.
 3.  **Aplikasi Global Thresholding:**
-    - [cite\_start]Menerapkan _Thresholding_ Manual ($T=127$).
-    - [cite\_start]Menerapkan _Otsu's Method_ (`cv2.THRESH_OTSU`) untuk mencari _threshold_ optimal.
+    - Menerapkan _Thresholding_ Manual ($T=127$).
+    - Menerapkan _Otsu's Method_ (`cv2.THRESH_OTSU`) untuk mencari _threshold_ optimal.
 4.  **Aplikasi Adaptive Thresholding:**
-    - [cite\_start]Menerapkan **Adaptive Mean** (`cv2.ADAPTIVE_THRESH_MEAN_C`).
-    - [cite\_start]Menerapkan **Adaptive Gaussian** (`cv2.ADAPTIVE_THRESH_GAUSSIAN_C`).
-    - [cite\_start]Parameter yang digunakan mencakup `blockSize` (ukuran _neighborhood_) dan $C$ (konstanta yang dikurangi dari mean/weighted mean).
+    - Menerapkan **Adaptive Mean** (`cv2.ADAPTIVE_THRESH_MEAN_C`).
+    - Menerapkan **Adaptive Gaussian** (`cv2.ADAPTIVE_THRESH_GAUSSIAN_C`).
+    - Parameter yang digunakan mencakup `blockSize` (ukuran _neighborhood_) dan $C$ (konstanta yang dikurangi dari mean/weighted mean).
 5.  **Visualisasi Hasil:** Menampilkan citra asli dan semua hasil segmentasi biner dalam satu plot _grid_ menggunakan `matplotlib` untuk perbandingan visual kualitatif.
 
 ---
