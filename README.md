@@ -12,9 +12,9 @@ Kode ini membandingkan tiga kategori penentuan nilai ambang ($T$):
 
 | Kategori            | Metode                                    | Prinsip Kerja                                                                                              | Keunggulan/Kelemahan                                                                                                                            |
 | :------------------ | :---------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Global Manual**   | `cv2.THRESH_BINARY`                       | [cite\_start]$T$ ditetapkan secara manual untuk seluruh citra[cite: 304].                                  | [cite\_start]Cepat, tetapi sangat tidak akurat jika pencahayaan tidak merata[cite: 163, 215].                                                   |
-| **Global Otomatis** | **Otsu's Method** (`cv2.THRESH_OTSU`)     | [cite\_start]$T$ tunggal dihitung secara otomatis untuk memaksimalkan varians antar kelas[cite: 190, 305]. | [cite\_start]Optimal untuk citra dengan histogram bimodal [cite: 309][cite\_start], tetapi gagal jika pencahayaan tidak merata[cite: 164, 215]. |
-| **Adaptive/Lokal**  | **Adaptive Mean** & **Adaptive Gaussian** | [cite\_start]$T$ dihitung secara _lokal_ dari _neighborhood_ setiap piksel[cite: 306, 307].                | [cite\_start]**Solusi terbaik** untuk citra dengan pencahayaan tidak merata, _shadow_, atau _highlight_[cite: 310].                             |
+| **Global Manual**   | `cv2.THRESH_BINARY`                       | $T$ ditetapkan secara manual untuk seluruh citra.                                  | Cepat, tetapi sangat tidak akurat jika pencahayaan tidak merata.                                                   |
+| **Global Otomatis** | **Otsu's Method** (`cv2.THRESH_OTSU`)     | $T$ tunggal dihitung secara otomatis untuk memaksimalkan varians antar kelas. | Optimal untuk citra dengan histogram bimodal , tetapi gagal jika pencahayaan tidak merata. |
+| **Adaptive/Lokal**  | **Adaptive Mean** & **Adaptive Gaussian** | $T$ dihitung secara _lokal_ dari _neighborhood_ setiap piksel.                | **Solusi terbaik** untuk citra dengan pencahayaan tidak merata, _shadow_, atau _highlight_.                             |
 
 ---
 
