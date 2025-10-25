@@ -1,10 +1,10 @@
 # THRESHOLDING CITRA: Perbandingan Segmentasi Lokal dan Global
 
-## 📚 Deskripsi Proyek
+## Deskripsi Proyek
 
-[cite\_start]Repositori ini berisi kode Python yang mendemonstrasikan dan membandingkan berbagai teknik **Thresholding** sebagai metode dasar untuk **Segmentasi Citra** dalam Pengolahan Citra Digital (PID)[cite: 51, 103].
+Repositori ini berisi kode Python yang mendemonstrasikan dan membandingkan berbagai teknik **Thresholding** sebagai metode dasar untuk **Segmentasi Citra** dalam Pengolahan Citra Digital (PID).
 
-[cite\_start]Thresholding adalah proses memisahkan piksel citra menjadi dua kategori (umumnya _foreground_ dan _background_) berdasarkan perbandingan nilai intensitas piksel dengan nilai ambang ($T$) tertentu[cite: 103]. [cite\_start]Fokus utama demonstrasi ini adalah mengatasi tantangan **pencahayaan yang tidak merata** pada citra[cite: 215].
+Thresholding adalah proses memisahkan piksel citra menjadi dua kategori (umumnya _foreground_ dan _background_) berdasarkan perbandingan nilai intensitas piksel dengan nilai ambang ($T$) tertentu. Fokus utama demonstrasi ini adalah mengatasi tantangan **pencahayaan yang tidak merata** pada citra.
 
 ### Metodologi Perbandingan
 
@@ -18,7 +18,7 @@ Kode ini membandingkan tiga kategori penentuan nilai ambang ($T$):
 
 ---
 
-## 🛠️ File: `thresholding_comparison.py`
+##  File: `thresholding_comparison.py`
 
 Kode utama dibuat dalam _script_ Python ini untuk menjalankan langkah-langkah demonstrasi secara berurutan.
 
@@ -39,7 +39,7 @@ Kode utama dibuat dalam _script_ Python ini untuk menjalankan langkah-langkah de
 
 ---
 
-## 💻 Persyaratan Sistem
+##  Persyaratan Sistem
 
 Untuk menjalankan kode ini, Anda memerlukan lingkungan Python dengan pustaka berikut:
 
